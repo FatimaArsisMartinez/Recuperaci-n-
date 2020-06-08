@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>landingpage</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700&display=swap" rel="stylesheet">
+    <style type="text/css">
+            :root{
+            --azul_marino:#243762;
+            --violeta:#b09cdb;
+            --azul_claro1:#c5d8ff;
+            --azul_claro2:#e6efff;
+                     
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+          img{
+            width: 100%;
+            height: auto;
+        }
+        body {
+			padding: 3em;
+			background-image:url(img/fondo.jpg);
+            background-size: cover;
+			font-size: 20px;
+			font-family: 'Roboto', sans-serif;
+		}
+        .container {
+            justify-content: center;
+			background:white;
+			width: 1010px;
+			height: 590px;
+			display:flex;
+			align-items: center;
+			flex-direction: row;
+			border-radius: 10px;
+            box-shadow: 10px 10px 40px rgba(0.23, 0, 0, 0.40);
+			
+		}
+           /*NAV*/
+        }
+        nav{
+            font-family: 'Roboto', sans-serif;
+            width: 100%;
+            padding: 30px 40px;
+            display: flex;
+            justify-content: space-between;
+            color:var(--azul_marino);
+            position: fixed;
+        }
+        .menu{
+            padding: 5px 0px 0px 0px;
+        }
+        .menu a{
+            margin: 0 20px 0 0;
+            transition: 0.3s color;
+        }
+        .menu a:hover{
+            color: negro;
+        }
+        /*MAIN*/
+        section{
+            position: relative;
+        }
+        
+}
+        .column1{
+			width: 400px;
+			height: 650px;
+            padding-left: 3em;
+            
+            
+		}
+		.column2{
+			padding-right: 3em;
+            padding-bottom: 10em;
+                
+		    
+		}
+         h1{
+            font-family:'Roboto', bold;
+            color:var(--azul_marino);
+            font-size: 30px;
+            padding-top: 2em;
+            padding-right: 3.5em;
+            height: 5%;
+			width: 120px;
+            background-color:var(--azul_claro2);
+            border-bottom-right-radius: 30px;
+            border-top-right-radius: 30px;
+            
+        }
+        h2{display:flex;
+            border-color:var(--violeta);
+            background-color:white;
+            font-size: 15px;
+            color:var(--violeta);
+			text-align: center;
+			bottom: 8px;
+			padding-top: 30px;
+            padding-left: 30px;
+            width: 129px;
+			height: 43px;
+          
+         }   
+      
+        h3{
+            font-family: 'Roboto', bold;
+            color:var(--azul_marino);
+            width: 300px;
+			font-size: 50px;
+			padding-top: 3.6em;
+        }
+        h4{
+            font-family:'Arial', light;
+            color:var(--azul_marino); 
+            font-size: 35px;
+                
+        }
+        h5{
+            
+            display:flex;
+            background-color:var(--violeta);
+            font-size: 15px;
+            color:white;
+			text-align: center;
+			padding-bottom: 8px;
+			padding-top: 11px;
+            padding-left: 19px;
+            width: 129px;
+			height: 43px;
+        }
+        img{
+            width: 85vh;
+            height: 85%;
+            float:right;
+            object-position: left;
+            padding:100px;
+        }
+         p {
+            font-family: 'Roboto', sans-serif;
+            color: var(--azul_marino);
+			line-height: 19px;
+			font-size: 10px;
+			padding-top: 1.8em;
+			padding-bottom: 4em;
+            text-align: left;
+            padding-right: 5em;
+		}
+        /*FOOTER*/
+        img{
+            object-position: center;
+            width: vh;
+            height: %;
+        }
+        
+    </style>
+    </head>
+    <body>
+       <div class="container">
+       <nav>
+      <div class="menu">
+           <a href="#">HOME</a>
+           <a href="#">ABOUT US</a>
+           <a href="##">SERVICES</a>
+      </div>
+      </nav>
+    <section>
+       <div class="column1">
+           <h1>LOGO</h1>
+                <img src="img/Recurso%201.png">
+            </div>
+           </section>
+            <div class="column2">
+            <div class="img">
+               <h2>CONTACT</h2>
+                <h3>STARTUP</h3>
+            <h4>LANDING</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate aliquid incidunt quos exercitationem eaque rerum ratione hic assumenda</p>
+            <h5>GET STRATED</h5>    
+            </div>
+           </div>
+           </div>
+    <footer>
+        <div>
+          <img src="img/Logo.png">
+        </div>
+    </footer>  
+    </body>
+</html>
